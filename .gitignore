@@ -1,0 +1,53 @@
+# Root level .gitignore for Cloud-Native Task Manager
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Docker (if used)
+docker-compose.override.yml
+
+# Kubernetes secrets (if any)
+*.secret.yaml
+*.secret.yml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Package manager lock files (optional - uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
